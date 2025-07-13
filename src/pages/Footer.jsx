@@ -10,7 +10,7 @@ export default function Footer() {
             <a href="https://facebook.com/TranHoai0125" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600"><FaFacebook /></a>
             <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="hover:text-black"><FaTiktok /></a>
             <a href="https://instagram.com/TranHoai0125" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500"><FaInstagram /></a>
-            <a href="https://youtube.com/TranHoai0125" target="_blank" rel="noopener noreferrer" className="hover:text-red-600"><FaYoutube /></a>
+            <a href="https://youtube.com/@TranHoai-0125" target="_blank" rel="noopener noreferrer" className="hover:text-red-600"><FaYoutube /></a>
           </div>
         </div>
         <div className="max-w-7xl mx-auto">
