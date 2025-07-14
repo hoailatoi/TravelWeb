@@ -6,19 +6,19 @@ const Content = () => {
     {
       id: 8,
       name: 'Vạn Lý Trường Thành',
-      image: '${process.env.PUBLIC_URL}/ImagesBanner/banner8.jpg',
+      image: '/ImagesBanner/banner8.jpg',
       description: 'Một trong những kỳ quan vĩ đại nhất thế giới, kéo dài hơn 21.000 km.',
     },
     {
       id: 7,
       name: 'Cửu Trại Câu',
-      image: '${process.env.PUBLIC_URL}/ImagesBanner/banner7.jpg',
+      image: '/ImagesBanner/banner7.jpg',
       description: 'Thiên đường xanh với hồ nước trong vắt và rừng lá phong rực rỡ.',
     },
     {
       id: 4,
       name: 'Thượng Hải',
-      image: '${process.env.PUBLIC_URL}/ImagesBanner/banner4.jpg',
+      image: '/ImagesBanner/banner4.jpg',
       description: 'Thành phố hiện đại với sự kết hợp hoàn hảo giữa truyền thống và công nghệ.',
     },
   ];
