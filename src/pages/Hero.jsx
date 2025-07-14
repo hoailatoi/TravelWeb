@@ -2,43 +2,46 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
+import images from '../components/images';
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation()
   const slides = [
     {
       id: 2,
-      image: '/ImagesBanner/banner2.jpg',
-      title: 'Trải nghiệm thiên nhiên kỳ thú!',
+      image: 'banner2',
+      title: t('nav.title2'),
     },
     {
       id: 3,
-      image: '/ImagesBanner/banner3.jpg',
-      title: 'Khám phá tour mùa hè 2025!',
+      image: 'banner3',
+      title: t('nav.title3'),
     },
     {
       id: 5,
-      image: '/ImagesBanner/banner5.jpg',
-      title: 'Trải nghiệm thiên nhiên kỳ thú!',
+      image: 'banner5',
+      title: t('nav.title5'),
     },
     {
       id: 9,
-      image: '/ImagesBanner/banner9.jpg',
-      title: 'Khám phá tour mùa hè 2025!',
+      image: 'banner9',
+      title: t('nav.title2'),
     },
     {
       id: 10,
-      image: '/ImagesBanner/banner10.jpg',
-      title: 'Trải nghiệm thiên nhiên kỳ thú!',
+      image: 'banner10',
+      title: t('nav.title10'),
     },
     {
       id: 11,
-      image: '/ImagesBanner/banner11.jpg',
-      title: 'Khám phá tour mùa hè 2025!',
+      image: 'banner11',
+      title: t('nav.title11'),
     },
     {
       id: 12,
-      image: '/ImagesBanner/banner12.jpg',
-      title: 'Trải nghiệm thiên nhiên kỳ thú!',
+      image: 'banner12',
+      title: t('nav.title12'),
     },
   ];
 
@@ -55,7 +58,7 @@ const Hero = () => {
           <SwiperSlide key={slide.id}>
             <div className="relative w-full h-[300px]">
               <img
-                src={slide.image}
+                src={images[slide.image]}
                 alt={slide.title}
                 className="w-full h-full object-cover opacity-0 transition-opacity duration-700"
                 loading="lazy"
